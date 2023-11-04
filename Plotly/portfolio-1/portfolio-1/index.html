@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#LineScatter" class="icon solid fa-folder"><span>Line&Scatter</span></a>
+						<a href="#BarChart" class="icon solid fa-folder"><span>BarChart</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me 首頁--> 
+							<article id="home" class="panel intro">
+								<header>
+									<h1>110303046 李恆緯</h1>
+									<p>資料視覺化期中作業</p>
+								</header>
+								<a href="#LineScatter" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!--Line&Scatter-->
+							<article id="LineScatter" class="panel">
+								<header>
+									<h2>Line&Scatter</h2>
+								</header>
+								<p>
+									桃園市各區1-8月結婚對數
+								</p>
+								<div id="myGraph">
+									<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+									<script src="//unpkg.com/d3"></script>
+									<script src="hw1/main.js"></script>
+									
+								</div>
+							</article>
+						
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+						
+						<!--Bar Chart-->
+						<article id="BarChart" class="panel">
+							<header>
+								<h2>BarChart</h2>
+							</header>
+							<p>
+							</p>
+							<div id="myBar">
+								<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+								<script src="//unpkg.com/d3"></script>
+								<script src="Barchart/main.js"></script>
+							</div>
+						</article>
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+
+	</body>
+</html>
