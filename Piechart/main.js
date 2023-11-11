@@ -64,6 +64,8 @@ function drawPie(res){
     data.push(trace1);
     data.push(trace2);
     let layout = {
+        height: 700,
+        width: 700,
         margin:{
             t:10,
             l:0,
